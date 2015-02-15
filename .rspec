@@ -1,0 +1,3 @@
+--color
+-f doc
+--require spec_helper
