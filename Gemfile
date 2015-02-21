@@ -35,7 +35,7 @@ group :development do
   gem 'better_errors'
   gem 'binding_of_caller'
   gem 'quiet_assets'
-  gem 'guard-rspec' , require: false
+  gem 'guard-rspec', require: false
   gem 'guard-rails'
   gem 'guard-livereload', require: false
   gem 'rack-livereload'
@@ -47,13 +47,15 @@ group :development, :test do
 
   # Access an IRB console on exception pages or by using <%= console %> in views
   gem 'web-console', '~> 2.0'
-  
 
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
   gem 'spring-commands-rspec'
   gem 'rspec-rails', '~> 3.1'
   gem 'pry-rails'
+  gem 'pry-byebug'
+  gem 'pry-stack_explorer'
+  gem 'pry-rescue'
 end
 
 group :test do
