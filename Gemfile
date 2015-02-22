@@ -35,10 +35,6 @@ group :development do
   gem 'better_errors'
   gem 'binding_of_caller'
   gem 'quiet_assets'
-  gem 'guard-rspec', require: false
-  gem 'guard-rails'
-  gem 'guard-livereload', require: false
-  gem 'rack-livereload'
 end
 
 group :development, :test do
@@ -56,6 +52,10 @@ group :development, :test do
   gem 'pry-byebug'
   gem 'pry-stack_explorer'
   gem 'pry-rescue'
+  gem 'guard-rspec', require: false
+  gem 'guard-rails'
+  gem 'guard-livereload', require: false
+  gem 'rack-livereload'
 end
 
 group :test do
